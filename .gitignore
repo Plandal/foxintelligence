@@ -1,3 +1,4 @@
 nbproject/
 .gitignore
 node_modules/
+web/bower_components/

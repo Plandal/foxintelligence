@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Plandal/foxintelligence#readme",
   "dependencies": {
+    "bower": "^1.8.2",
     "ejs": "^2.5.7",
     "express": "^4.15.5"
   }
