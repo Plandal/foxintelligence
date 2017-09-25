@@ -8,6 +8,36 @@
         <link rel="stylesheet" type="text/css" href="/web/bower_components/bootstrap/dist/css/bootstrap.min.css">
     </head>
     <body>
-        <div>TRUE</div>
+        <div id="wrapper">
+
+            <div class="row">
+                <div class="col-md-offset-2 col-md-3">
+
+                    <div class="form-group">
+                        <label for="exampleInputFile">Envoyer fichier</label>
+                        <input id="fiHtmlFile" type="file" class="form-control-file"  aria-describedby="configurationFile">
+                        <small id="fileHelp" class="form-text text-muted">Donnez nous votre fichier au format hml</small>
+                    </div>
+
+                </div>
+                <div class="col-md-offset-2 col-md-3">
+
+                    <div class="form-group">
+                        <!--                        <input for="exampleInputFile">Envoyer fichier</label>
+                                                <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">-->
+                        <label for="basic-url">URL</label>
+                        <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon3">https://example.com/users/</span>
+                            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                        </div>
+                        <small id="fileHelp" class="form-text text-muted">Saisissez l'url de votre document</small>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <script src="/web/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="/web/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="/web/js/index.js"></script>
     </body>
 </html>

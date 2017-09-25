@@ -10,4 +10,9 @@ app.get('/', function (req, res) {
     res.render('index');
 });
 
+app.post('/upload', function (req, res) {
+    console.log('req = ',req);
+    res.send(true);
+});
+
 app.listen(8080);
