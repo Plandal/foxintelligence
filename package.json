@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Plandal/foxintelligence/issues"
   },
-  "homepage": "https://github.com/Plandal/foxintelligence#readme"
+  "homepage": "https://github.com/Plandal/foxintelligence#readme",
+  "dependencies": {
+    "express": "^4.15.5"
+  }
 }
