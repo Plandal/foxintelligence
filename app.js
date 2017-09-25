@@ -2,7 +2,7 @@ var express = require('express');
 var fs = require('fs');
 var app = express();
 var server = require('http').createServer(app);
-var foxintelligence = require('./modules/foxintelligence')
+//var foxintelligence = require('./modules/foxintelligence')
 
 app.set('view engine', 'ejs');
 
@@ -18,6 +18,6 @@ app.get('/', function (req, res) {
 //    res.send(true);
 //});
 
-foxintelligence.htmlToJson();
+//foxintelligence.htmlToJson('./docs/test.html');
 
 app.listen(8080);
