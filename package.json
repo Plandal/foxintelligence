@@ -1,0 +1,22 @@
+{
+  "name": "foxintelligence",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Plandal/foxintelligence.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Plandal/foxintelligence/issues"
+  },
+  "homepage": "https://github.com/Plandal/foxintelligence#readme"
+}
