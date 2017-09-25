@@ -15,8 +15,11 @@ $('#fiHtmlFile').on('change', function (e) {
             // Tell jQuery not to process data or worry about content-type
             // You *must* include these options!
             cache: false,
-            contentType: false,
             processData: false,
+            contentType: "text/html",
+            success: function (data) {
+                console.log('upload successful!');
+            },
 
             // Custom XMLHttpRequest
             xhr: function () {
